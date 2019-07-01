@@ -1,0 +1,80 @@
+.feedback-form .content-feedback {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center; }
+  .feedback-form .content-feedback .contacts {
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    margin-bottom: 45px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 60px; }
+    @media (max-width: 760px) {
+      .feedback-form .content-feedback .contacts {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
+    @media (max-width: 760px) {
+      .feedback-form .content-feedback .contacts > div {
+        margin-bottom: 40px; } }
+    .feedback-form .content-feedback .contacts .email, .feedback-form .content-feedback .contacts .phone, .feedback-form .content-feedback .contacts .address {
+      width: 178px; }
+    .feedback-form .content-feedback .contacts i {
+      font-size: 25px; }
+    .feedback-form .content-feedback .contacts h2 {
+      font-size: 24px;
+      margin-top: 25px; }
+    .feedback-form .content-feedback .contacts p {
+      color: #999;
+      font-size: 14px; }
+  .feedback-form .content-feedback form {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    max-width: 480px; }
+    .feedback-form .content-feedback form input {
+      height: 55px;
+      width: 480px;
+      width: 100%;
+      border: 2px solid black;
+      margin-bottom: 25px;
+      outline: none;
+      font-size: 16px;
+      font-family: 'Source Sans Pro';
+      padding: 0 16px; }
+    .feedback-form .content-feedback form textarea {
+      height: 207px;
+      width: 480px;
+      resize: none;
+      border: 2px solid black;
+      font-size: 16px;
+      font-family: 'Source Sans Pro';
+      padding: 19px 16px 0 16px;
+      outline: none; }
+      @media (max-width: 760px) {
+        .feedback-form .content-feedback form textarea {
+          width: 100%;
+          max-width: 480px; } }
+    .feedback-form .content-feedback form .feedback-button {
+      width: 170px;
+      height: 50px;
+      background-color: black;
+      color: #FFF;
+      font-size: 16px;
+      font-weight: 700;
+      margin: 25px 0 75px 0;
+      transition: 0.25s; }
+      .feedback-form .content-feedback form .feedback-button:hover {
+        background-color: #ffd900;
+        color: black;
+        border-color: #FFD900; }
+      .feedback-form .content-feedback form .feedback-button:active {
+        border-color: #fff; }

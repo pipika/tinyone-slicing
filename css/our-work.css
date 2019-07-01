@@ -1,0 +1,78 @@
+.content-our-work__line {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 65px;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  @media (max-width: 530px) {
+    .content-our-work__line {
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-align: center;
+      align-items: center; } }
+  @media (max-width: 980px) {
+    .content-our-work__line > div {
+      width: 50%;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-bottom: 30px; } }
+  .content-our-work__line .content-our-work__box {
+    width: 220px;
+    height: 220px;
+    background-color: black;
+    position: relative; }
+    .content-our-work__line .content-our-work__box:hover {
+      outline: 3px solid #fff;
+      outline-offset: -3px; }
+    .content-our-work__line .content-our-work__box a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+    .content-our-work__line .content-our-work__box button {
+      position: absolute;
+      right: 90px;
+      top: 90px;
+      width: 39px;
+      height: 39px;
+      outline: none;
+      cursor: pointer;
+      background-color: black;
+      border: none;
+      padding: 0; }
+      .content-our-work__line .content-our-work__box button .icon {
+        position: absolute;
+        color: #FFF;
+        font-size: 57px;
+        top: -13px;
+        right: -7px; }
+        .content-our-work__line .content-our-work__box button .icon:hover {
+          color: #fcdb00; }
+    .content-our-work__line .content-our-work__box .date {
+      color: #FFF;
+      position: relative; }
+      .content-our-work__line .content-our-work__box .date .date__eye {
+        position: absolute;
+        top: 190px;
+        left: 10px; }
+      .content-our-work__line .content-our-work__box .date .date__time {
+        position: absolute;
+        top: 190px;
+        right: 10px; }
+      .content-our-work__line .content-our-work__box .date span {
+        padding: 0px 10px; }
+  .content-our-work__line h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 22px;
+    margin-bottom: 8px;
+    text-align: center; }
+  .content-our-work__line p {
+    font-size: 16px;
+    color: #898989;
+    text-align: center; }

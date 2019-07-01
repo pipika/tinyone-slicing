@@ -1,0 +1,78 @@
+.content-pricing {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-bottom: 195px; }
+  @media (max-width: 760px) {
+    .content-pricing {
+      -ms-flex-direction: column;
+      flex-direction: column; } }
+  .content-pricing .content-pricing__block {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    @media (max-width: 760px) {
+      .content-pricing .content-pricing__block {
+        margin-bottom: 30px;
+        padding: 10px 0; } }
+    .content-pricing .content-pricing__block button {
+      background-color: #FFF;
+      border: 2px solid black;
+      outline: none;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      margin-top: 38px;
+      transition: 0.25s;
+      width: 140px;
+      height: 47px; }
+      .content-pricing .content-pricing__block button:hover {
+        background-color: black;
+        color: #FFF; }
+      .content-pricing .content-pricing__block button:active {
+        border-color: #fff; }
+  .content-pricing__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+    background-color: #EBEBEB;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 25px; }
+    .content-pricing__img .icon {
+      font-size: 48px; }
+    .content-pricing__img--black {
+      background-color: black; }
+      .content-pricing__img--black .ion-android-laptop {
+        color: #FFF; }
+  .content-pricing p {
+    text-align: center;
+    width: 170px;
+    font-size: 14px;
+    color: #898989;
+    line-height: 150%;
+    margin: 25px 0 45px 0; }
+  .content-pricing h4 {
+    font-size: 24px;
+    font-weight: 700; }
+  .content-pricing .price {
+    font-size: 32px;
+    font-weight: 700; }
+  .content-pricing .content-pricing__month {
+    font-size: 16px;
+    color: #898989; }
+  .content-pricing hr {
+    height: 2px;
+    border-color: black;
+    width: 50px; }
